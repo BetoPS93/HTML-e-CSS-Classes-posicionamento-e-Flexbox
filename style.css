@@ -11,10 +11,37 @@ body{
 }
 
 .apresentacao {
+    margin: 12%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
-.ttulo-destaque{
+.titulo-destaque{
     color: #22D4FD;
+}
+
+.apresentacao__container {
+    width: 40%;
+}
+
+.titulo-conteudo {
+    font-size: 36px;
+}
+
+.apresentacao-texto {
+    font-size: 24px;
+    padding: 2em 0;
+}
+
+.botao {
+    background-color: #22D4FD;
+    color: #F6F6F6;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    padding: 20px 35px;
+    border-radius: 15px;
 }
